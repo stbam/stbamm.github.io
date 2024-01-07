@@ -60,10 +60,14 @@ p{
    /* transform: scale(2); doesnt need scaling just gets in the way*/
 }
 .project-card {
-   
     width: 400px;
     text-align: center;
+}
+.img-container{
 
+}
+.demo-pictures{
+     height: 250px;/* hardcoded height*/
 }
 .link{
     width: inherit;
@@ -125,8 +129,12 @@ span{
 }
 
 /* Bubble bg with plain CSS */
+.bubble{
+    width: 100%;
+}
 
 .bubble::after {
+    
   content: '';
   border-top-left-radius: 50% 100%;
   border-top-right-radius: 50% 100%;
@@ -137,12 +145,35 @@ span{
   background-color: #0f0f10;
   height: 85%;
 }
+.wrapper{
+    display: flex;
+    gap: 30px;
+}
 .skills{
     display: flex;
    /* flex-direction: row;*/
     flex-wrap: wrap;
     width: 400px;
     gap: 20px;
+    
+}
+.titles{
+    width: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+.courses{
+    display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+}
+.bootcamp{
+    max-width: 80px;
+    height: auto;
+}
+.bootcamp:hover{
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     
 }
 .flex_skills{
