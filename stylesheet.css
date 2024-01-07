@@ -226,3 +226,54 @@ span{
   background: url('./blobs.svg') no-repeat bottom / cover;
 }
 
+.links{
+display: flex;
+justify-content: center;
+gap: 20px;
+}
+.linksimg{
+    width: 80px;
+    cursor: pointer;
+}
+.linksimg:hover{
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* ----- -- ------FORM --------------*/
+
+/* Global Styles */
+.contactme{
+   display: flex;
+    justify-content: center;
+  
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form{
+   text-decoration: none;
+   border-radius: 1rem;
+   width: 500px;
+   outline: none;
+}
+#emailcontent{
+    padding: 10px;
+    height: 30px;
+}
+#messagecontent{
+    padding: 10px;
+    height: 400px;
+}
+#submitbtn{
+    background-color: white;
+    border-radius:1rem ;
+    width: 50%;
+    cursor: pointer;
+}
+#submitbtn:hover{
+
+}
