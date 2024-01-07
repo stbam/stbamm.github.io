@@ -3,7 +3,9 @@ html{
 }
 h1 {
   font-size: 4rem;
+  display: inline;
 }
+
 p {
   font-size: 1.5rem;
 }
@@ -218,6 +220,8 @@ span{
 }
 
 .blob-content {
+    user-select: none;
+    text-align: center;
   z-index: 1;
 }
 
@@ -229,7 +233,8 @@ span{
 .links{
 display: flex;
 justify-content: center;
-gap: 20px;
+gap: 100px;
+
 }
 .linksimg{
     width: 80px;
