@@ -27,7 +27,9 @@ section {
 .blue {
   background: #3c31dd;
 }
-
+p{
+    width: 50%;
+}
 .red {
   background: #dd3f31;
 }
@@ -105,7 +107,7 @@ span{
   width: 55%;
   height: 100%;
   transform: translate(85%, 60%);
-  background-color: hsl(216, 21%, 16%);
+  background-color: #202731;
 }
 
 .curve::after {
@@ -132,6 +134,36 @@ span{
   width: 100%;
   background-color: #0f0f10;
   height: 85%;
+}
+.skills{
+    display: flex;
+   /* flex-direction: row;*/
+    flex-wrap: wrap;
+    width: 400px;
+    gap: 20px;
+    
+}
+.flex_skills{
+   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    border-radius: 50px;
+  background-color:#202731;
+}
+.flex_skills:hover{
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 1);
+}
+.skillsimg {
+   
+    display: inline-block;
+   width: 80px;
+   height:auto;
+    
+}
+.skillsimg:hover{
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 /* Curved bg with SVG via https://www.shapedivider.app/ */
