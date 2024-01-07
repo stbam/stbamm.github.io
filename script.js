@@ -1,12 +1,21 @@
 const projects = [ //Takes array info of the card and in generateProjectCard func it plugs it in for all projects
-   { 
+  
+
+{ 
+    title:"Pokedex",
+    image:"assets/pokemon.png",
+    madeWith:["Nodejs","Html","Css","JavaScript"],
+    liveDemoLink:"https://inventory-application-production-899c.up.railway.app",
+    sourceLink:"https://github.com/stbam/Inventory-Application"
+    },
+
+{ 
 title:"Mini Message Board",
 image:"assets/Message Board.png",
 madeWith:["Nodejs","Html","Css","JavaScript"],
 liveDemoLink:"https://message-chat-board.up.railway.app/index",
 sourceLink:"https://github.com/stbam/Mini-message-board"
 }
-
   ,{
     title:"Cv Application Maker",
     image:"assets/Cvapplication.png",

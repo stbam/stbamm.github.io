@@ -1,0 +1,1 @@
+This is a complete remake of my old website which was my first attempt at making one. A lot was learned. 
