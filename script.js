@@ -1,7 +1,13 @@
 const projects = [ //Takes array info of the card and in generateProjectCard func it plugs it in for all projects
   
-
 { 
+  title:"Modern Blog",
+  image:"assets/blog.png",
+  madeWith:["Nodejs","Html","Css","JavaScript"],
+  liveDemoLink:"https://blogapi-production-d376.up.railway.app",
+  sourceLink:"https://github.com/stbam/Blog_Api"
+  }
+,{ 
     title:"Pokedex",
     image:"assets/pokemon.png",
     madeWith:["Nodejs","Html","Css","JavaScript"],
